@@ -1,21 +1,25 @@
 #!markdown
 
-# This is New Notebook
+Markdown Block can be initiated via #!markdown
+
+This is the markdown block
+# And This is Header
 
 #!pwsh
 
+#This is Code Block
 $PSVersionTable
 
 #!markdown
 
-# This is another header
+# This is another markdown header with list
 - List 1
 - List 2
 - List 3
 
 #!pwsh
 
-# Sample Code
+# This is Sample Code Block
 $a = random(1..10)
 $b = random(100..1000)
 $c = $a + $b

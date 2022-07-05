@@ -1,0 +1,23 @@
+#!markdown
+
+# This is New Notebook
+
+#!pwsh
+
+$PSVersionTable
+
+#!markdown
+
+# This is another header
+- List 1
+- List 2
+- List 3
+
+#!pwsh
+
+# Sample Code
+$a = random(1..10)
+$b = random(100..1000)
+$c = $a + $b
+
+Write-Host "a + b is $c"

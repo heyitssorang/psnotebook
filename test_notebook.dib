@@ -30,6 +30,6 @@ Write-Host "a + b is $c"
 #!pwsh
 
 # This is code block initiated from git browser
-for ($i = 1;$i <= 10;$i++) {
+for ($i = 1;$i -le 10;$i++) {
   Write-Host "This is $i"
 }

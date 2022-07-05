@@ -7,7 +7,8 @@ This is the markdown block
 
 #!pwsh
 
-#This is Code Block
+# This is Code Block
+# Code Block can be initiated with #!pwsh
 $PSVersionTable
 
 #!markdown
